@@ -1,4 +1,4 @@
-# An RTK receiver and NTP source using ESP 32
+# RTK receiver and NTP source using ESP 32
 
 ## Forked from [UM98x RTK Server](https://github.com/mctainsh/Esp32/tree/main/UM98RTKServer)
 
