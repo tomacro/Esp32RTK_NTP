@@ -2,10 +2,10 @@
 
 # ESP32 UM980 Multi-Caster RTK & Stratum-1 NTP Server
 
-This repository is an optimized, high-performance fork of the baseline [mctainsh/UM98RTKServer](https://github.com/mctainsh/Esp32/blob/main/UM98RTKServer/README.md). 
+This repository is an optimized, high-performance fork of the baseline [mctainsh/UM98RTKServer](https://github.com/mctainsh/Esp32/blob/main/UM98RTKServer/README.md).<br>
 <b>YOU MUST REFERENCE THE INITIAL REPO FOR MORE INFORMATION</b>
 
-While the original repository provides an excellent baseline for streaming raw RTCM3 data from a Unicore GNSS module to a single caster, this version introduces concurrent multi-caster casting alongside an isolated local Stratum-1 Network Time Protocol (NTP) server disciplined by a hardware 1PPS pulse.
+While the original repository provides an excellent baseline for streaming raw RTCM3 data from a Unicore GNSS module to three casters, this version introduces concurrent multi-caster casting alongside an isolated local Stratum-1 Network Time Protocol (NTP) server disciplined by a hardware 1PPS pulse.
 
 This was a fairly straightforward and fun project to (1) add a NTP server to my tech stack primarily using hardware already on hand, and (2) rekindle my C++ coding knowledge.
 
